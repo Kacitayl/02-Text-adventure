@@ -1,0 +1,1046 @@
+{
+	"A1": {
+		"name": "A1",
+		"desc": "A1 is the starting point for The Adventure Hedge Maze. Reach the end of this maze to prove your valor and dedication. Move north, west, east, or south by simply typing 'n','w','e',or 's'. You may find useful tools at what seem to be dead ends so I pray you are feeling curious and thorough. Check your inventory at any time by typing 'INVENTORY'. If you feel you cannot go on type 'Quit' and your dedication will be spoken for. Currently, you are surrounded to the west, south, and east with tall, thick, and thorny hedges. Choose your next move wisely. Good Luck, adventurer.",
+		"exits": [{
+			"exit": "N",
+			"target": "A2"
+		}, {
+			"exit": "S",
+			"target": "A"
+		}, {
+			"exit": "E",
+			"target": "A"
+		}, {
+			"exit": "W",
+			"target": "A"
+		}],
+		"items": []
+	},
+	"A": {
+		"name": "A1",
+		"desc": "There is a thick hedge wall there covered in thorns. Best choose a different direction.",
+		"exits": [{
+			"exit": "N",
+			"target": "A2"
+		}, {
+			"exit": "S",
+			"target": "A"
+		}, {
+			"exit": "E",
+			"target": "A"
+		}, {
+			"exit": "W",
+			"target": "A"
+		}],
+		"items": []
+	},
+	"A2": {
+		"name": "A2",
+		"desc": "You are north of the entrance with thick hedges to the east and west.",
+		"exits": [{
+			"exit": "N",
+			"target": "A3"
+		}, {
+			"exit": "S",
+			"target": "A1"
+		}, {
+			"exit": "E",
+			"target": "A2WW"
+		}, {
+			"exit": "W",
+			"target": "A2WW"
+		}],
+		"items": []
+	},
+	"A2WW": {
+		"name": "A2",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the east and west.",
+		"exits": [{
+			"exit": "N",
+			"target": "A3"
+		}, {
+			"exit": "S",
+			"target": "A1"
+		}, {
+			"exit": "E",
+			"target": "A2WW"
+		}, {
+			"exit": "W",
+			"target": "A2WW"
+		}],
+		"items": []
+	},
+	"A3": {
+		"name": "A3",
+		"desc": "You are north of the entrance with thick hedges to the west and to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "A3WW"
+		}, {
+			"exit": "S",
+			"target": "A2"
+		}, {
+			"exit": "E",
+			"target": "B3"
+		}, {
+			"exit": "W",
+			"target": "A3WW"
+		}],
+		"items": []
+	},
+	"A3WW": {
+		"name": "A3",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the west and to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "A3WW"
+		}, {
+			"exit": "S",
+			"target": "A2"
+		}, {
+			"exit": "E",
+			"target": "B3"
+		}, {
+			"exit": "W",
+			"target": "A3WW"
+		}],
+		"items": []
+	},
+	"B3": {
+		"name": "B3",
+		"desc": "You are northeast of the entrance with thick hedges to the south and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "B4"
+		}, {
+			"exit": "S",
+			"target": "B3WW"
+		}, {
+			"exit": "E",
+			"target": "B3WW"
+		}, {
+			"exit": "W",
+			"target": "A3"
+		}],
+		"items": []
+	},
+	"B3WW": {
+		"name": "B3",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the south and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "B4"
+		}, {
+			"exit": "S",
+			"target": "B3WW"
+		}, {
+			"exit": "E",
+			"target": "B3WW"
+		}, {
+			"exit": "W",
+			"target": "A3"
+		}],
+		"items": []
+	},
+	"B4": {
+		"name": "B4",
+		"desc": "You are northeast of the entrance and there appears to be a dead end to the west.",
+		"exits": [{
+			"exit": "N",
+			"target": "B5"
+		}, {
+			"exit": "S",
+			"target": "B3"
+		}, {
+			"exit": "E",
+			"target": "C4"
+		}, {
+			"exit": "W",
+			"target": "A4"
+		}],
+		"items": []
+	},
+	"A4": {
+		"name": "A4",
+		"desc": "You have reached a dead end.",
+		"exits": [{
+			"exit": "N",
+			"target": "A4WW"
+		}, {
+			"exit": "S",
+			"target": "A4WW"
+		}, {
+			"exit": "E",
+			"target": "B4"
+		}, {
+			"exit": "W",
+			"target": "A4WW"
+		}],
+		"items": []
+	},
+	"A4WW": {
+		"name": "A4",
+		"desc": "OUCH! You cannot go that way. This is a dead end. Best turn around and go back east.",
+		"exits": [{
+			"exit": "N",
+			"target": "A4WW"
+		}, {
+			"exit": "S",
+			"target": "A4WW"
+		}, {
+			"exit": "E",
+			"target": "B4"
+		}, {
+			"exit": "W",
+			"target": "A4WW"
+		}],
+		"items": []
+	},
+	"B5": {
+		"name": "B5",
+		"desc": "You are northeast of the entrance with thick hedges to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "B5WW"
+		}, {
+			"exit": "S",
+			"target": "B4"
+		}, {
+			"exit": "E",
+			"target": "B5WW"
+		}, {
+			"exit": "W",
+			"target": "A5"
+		}],
+		"items": []
+	},
+	"B5WW": {
+		"name": "B5",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "B5WW"
+		}, {
+			"exit": "S",
+			"target": "B4"
+		}, {
+			"exit": "E",
+			"target": "B5WW"
+		}, {
+			"exit": "W",
+			"target": "A5"
+		}],
+		"items": []
+	},
+	"A5": {
+		"name": "A5",
+		"desc": "You are north of the entrance and there appears to be a dead end to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "A6"
+		}, {
+			"exit": "S",
+			"target": "A5WW"
+		}, {
+			"exit": "E",
+			"target": "B5"
+		}, {
+			"exit": "W",
+			"target": "A5WW"
+		}],
+		"items": []
+	},
+	"A5WW": {
+		"name": "A5",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the west and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "A6"
+		}, {
+			"exit": "S",
+			"target": "A5WW"
+		}, {
+			"exit": "E",
+			"target": "B5"
+		}, {
+			"exit": "W",
+			"target": "A5WW"
+		}],
+		"items": []
+	},
+	"A6": {
+		"name": "A6",
+		"desc": "You have reached a dead end but you see the tip of something glimmer at the base of the hedge. Upon closer inspection you find that it's a pair of hedge trimmers! The hedge is too thick here but they may come in handy later. Type 'get trimmers' if you would like to grab them and save them for later use.",
+		"exits": [{
+			"exit": "N",
+			"target": "A6WW"
+		}, {
+			"exit": "S",
+			"target": "A5"
+		}, {
+			"exit": "E",
+			"target": "A6WW"
+		}, {
+			"exit": "W",
+			"target": "A6WW"
+		}],
+		"items": [
+			{
+				"item": "TRIMMERS",
+				"desc": "",
+				"take": "You store the hedge trimmers in your backpack for later use."
+			}
+		]
+	},
+	"A6WW": {
+		"name": "A6",
+		"desc": "OUCH! You cannot go that way. This is a dead end. Better turn around and go back south.",
+		"exits": [{
+			"exit": "N",
+			"target": "A6WW"
+		}, {
+			"exit": "S",
+			"target": "A5"
+		}, {
+			"exit": "E",
+			"target": "A6WW"
+		}, {
+			"exit": "W",
+			"target": "A6WW"
+		}],
+		"items": []
+	},
+	"C4": {
+		"name": "C4",
+		"desc": "You are northeast of the entrance with a thick hedge to the north and what appears to be a dead end to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "C4WW"
+		}, {
+			"exit": "S",
+			"target": "C3"
+		}, {
+			"exit": "E",
+			"target": "D4"
+		}, {
+			"exit": "W",
+			"target": "B4"
+		}],
+		"items": []
+	},
+	"C4WW": {
+		"name": "C4",
+		"desc": "OUCH! You cannot go that way. There is a thick hedge covered in thorns to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "C4WW"
+		}, {
+			"exit": "S",
+			"target": "C3"
+		}, {
+			"exit": "E",
+			"target": "D4"
+		}, {
+			"exit": "W",
+			"target": "B4"
+		}],
+		"items": []
+	}, 
+	"D4": {
+		"name": "D4",
+		"desc": "This is a dead end but the hedge looks thin to north. If you have something cut through the vines and thorns you may be able to take a shortcut.",
+		"exits": [{
+			"exit": "N",
+			"target": "D5" 
+		}, {
+			"exit": "S",
+			"target": "D4WW"
+		}, {
+			"exit": "E",
+			"target": "D4WW"
+		}, {
+			"exit": "W",
+			"target": "C4"
+		}],
+		"items": []
+	},
+	"D4WW": {
+		"name": "D4",
+		"desc": "OUCH! You cannot go that way. This is a dead end. Unless you have something to cut through the thinning hedge to the north you better turn around and head back west.",
+		"exits": [{
+			"exit": "N",
+			"target": "D5"
+		}, {
+			"exit": "S",
+			"target": "D4WW"
+		}, {
+			"exit": "E",
+			"target": "D4WW"
+		}, {
+			"exit": "W",
+			"target": "C4"
+		}],
+		"items": []
+	},
+	"C3": {
+		"name": "C3",
+		"desc": "You are northeast of the entrance with thick headges to the west and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "C4"
+		}, {
+			"exit": "S",
+			"target": "C3WW"
+		}, {
+			"exit": "E",
+			"target": "D3"
+		}, {
+			"exit": "W",
+			"target": "C3WW"
+		}],
+		"items": []
+	},
+	"C3WW": {
+		"name": "C3",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the west and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "C4"
+		}, {
+			"exit": "S",
+			"target": "C3WW"
+		}, {
+			"exit": "E",
+			"target": "D3"
+		}, {
+			"exit": "W",
+			"target": "C3WW"
+		}],
+		"items": []
+	},
+	"D3": {
+		"name": "D3",
+		"desc": "You are northeast of the entrance with thick hedges to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "D3WW"
+		}, {
+			"exit": "S",
+			"target": "D2"
+		}, {
+			"exit": "E",
+			"target": "D3WW"
+		}, {
+			"exit": "W",
+			"target": "C3"
+		}],
+		"items": []
+	},
+	"D3WW": {
+		"name": "D3",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "D3WW"
+		}, {
+			"exit": "S",
+			"target": "D2"
+		}, {
+			"exit": "E",
+			"target": "D3WW"
+		}, {
+			"exit": "W",
+			"target": "C3"
+		}],
+		"items": []
+	},
+	"D2": {
+		"name": "D2",
+		"desc": "You are northeast of the entrance with thick hedges to the south and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "D3"
+		}, {
+			"exit": "S",
+			"target": "D2WW"
+		}, {
+			"exit": "E",
+			"target": "D2WW"
+		}, {
+			"exit": "W",
+			"target": "C2"
+		}],
+		"items": []
+	},
+	"D2WW": {
+		"name": "D2",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the south and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "D3"
+		}, {
+			"exit": "S",
+			"target": "D2WW"
+		}, {
+			"exit": "E",
+			"target": "D2WW"
+		}, {
+			"exit": "W",
+			"target": "C2"
+		}],
+		"items": []
+	},
+	"C2": {
+		"name": "C2",
+		"desc": "You are northeast of the entrance with a thick hedge to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "C2WW"
+		}, {
+			"exit": "S",
+			"target": "C1"
+		}, {
+			"exit": "E",
+			"target": "D2"
+		}, {
+			"exit": "W",
+			"target": "B2"
+		}],
+		"items": []
+	},
+	"C2WW": {
+		"name": "C2",
+		"desc": "OUCH! You cannot go that way. There is a thick hedge covered in thorns to the north.",
+		"exits": [{
+			"exit": "N",
+			"target": "C2WW"
+		}, {
+			"exit": "S",
+			"target": "C1"
+		}, {
+			"exit": "E",
+			"target": "D2"
+		}, {
+			"exit": "W",
+			"target": "B2"
+		}],
+		"items": []
+	},
+	"B2": {
+		"name": "B2",
+		"desc": "You are directly northeast of the entrance with thick hedges to the north and to the west. To the south appears to be a dead end but something is glowing from just within the hedge.",
+		"exits": [{
+			"exit": "N",
+			"target": "B2WW"
+		}, {
+			"exit": "S",
+			"target": "B1"
+		}, {
+			"exit": "E",
+			"target": "C2"
+		}, {
+			"exit": "W",
+			"target": "B2WW"
+		}],
+		"items": []
+	},
+	"B2WW": {
+		"name": "B2",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the west.",
+		"exits": [{
+			"exit": "N",
+			"target": "B2WW"
+		}, {
+			"exit": "S",
+			"target": "B1"
+		}, {
+			"exit": "E",
+			"target": "C2"
+		}, {
+			"exit": "W",
+			"target": "B2WW"
+		}],
+		"items": []
+	},
+	"B1": {
+		"name": "B1",
+		"desc": "This is a dead end but there is a flashlight stuck in the hedge! Type 'get flashlight' to grab the flashlight. It may prove useful in scaring off monsters.",
+		"exits": [{
+			"exit": "N",
+			"target": "B2"
+		}, {
+			"exit": "S",
+			"target": "B1WW"
+		}, {
+			"exit": "E",
+			"target": "B1WW"
+		}, {
+			"exit": "W",
+			"target": "B1WW"
+		}],
+		"items": [
+			{
+				"item": "FLASHLIGHT",
+				"desc": "",
+				"take": "You grab the flashlight from the hedge and store it in your backpack."
+			}
+		]
+	},
+	"B1WW": {
+		"name": "B1",
+		"desc": "OUCH! You cannot go that way. This is a dead end. Best to turn around and head back north.",
+		"exits": [{
+			"exit": "N",
+			"target": "B2"
+		}, {
+			"exit": "S",
+			"target": "B1WW"
+		}, {
+			"exit": "E",
+			"target": "B1WW"
+		}, {
+			"exit": "W",
+			"target": "B1WW"
+		}],
+		"items": []
+	},
+	"C1": {
+		"name": "C1",
+		"desc": "You are east of the entrance with thick hedges to the west and to the south. To the east the hedge has grown over creating a dark and earily quiet tunnel. You see multiple pairs of eyes watching you from the deepest shadows. Only proceed to the east if you have a light source to fend off whatever is lurking in the shadows.",
+		"exits": [{
+			"exit": "N",
+			"target": "C2"
+		}, {
+			"exit": "S",
+			"target": "C1WW"
+		}, {
+			"exit": "E",
+			"target": "D1"
+		}, {
+			"exit": "W",
+			"target": "C1WW"
+		}],
+		"items": []
+	},
+	"C1WW": {
+		"name": "C1",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the west and to the south. Best head back north or use a light source to proceed east.",
+		"exits": [{
+			"exit": "N",
+			"target": "C2"
+		}, {
+			"exit": "S",
+			"target": "C1WW"
+		}, {
+			"exit": "E",
+			"target": "D1"
+		}, {
+			"exit": "W",
+			"target": "C1WW"
+		}],
+		"items": []
+	},
+	"D1": {
+		"name": "D1",
+		"desc": "You shine the flashlight to the east and see a plethora of rats scatter into the depths of the hedges. The way is now clear of creepy crawlies lurking in the shadows. You are straight east of the entrance with thick hedges to the north and to the south. Will you continue into the dark, quiet tunnel?",
+		"exits": [{
+			"exit": "N",
+			"target": "D1WW"
+		}, {
+			"exit": "S",
+			"target": "D1WW"
+		}, {
+			"exit": "E",
+			"target": "E1"
+		}, {
+			"exit": "W",
+			"target": "C1"
+		}],
+		"items": []
+	},
+	"D1WW": {
+		"name": "D1",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "D1WW"
+		}, {
+			"exit": "S",
+			"target": "D1WW"
+		}, {
+			"exit": "E",
+			"target": "E1"
+		}, {
+			"exit": "W",
+			"target": "C1"
+		}],
+		"items": []
+	},
+	"E1": {
+		"name": "E1",
+		"desc": "You are at the southeastern edge of the maze. The thick hedges prohibit you from going south or east. To the north is a long spooky, pitch black corridor.",
+		"exits": [{
+			"exit": "N",
+			"target": "E2"
+		}, {
+			"exit": "S",
+			"target": "E1WW"
+		}, {
+			"exit": "E",
+			"target": "E1WW"
+		}, {
+			"exit": "W",
+			"target": "D1"
+		}],
+		"items": []
+	},
+	"E1WW": {
+		"name": "E1",
+		"desc": "OUCH! You cannot go that way. There are thick hedges that prohibit you from going south or east. Try a different direction.",
+		"exits": [{
+			"exit": "N",
+			"target": "E2"
+		}, {
+			"exit": "S",
+			"target": "E1WW"
+		}, {
+			"exit": "E",
+			"target": "E1WW"
+		}, {
+			"exit": "W",
+			"target": "D1"
+		}],
+		"items": []
+	},
+	"E2": {
+		"name": "E2",
+		"desc": "A long corridor trails directly north. You sense you are on the last leg of the maze. Or maybe it's just hope.",
+		"exits": [{
+			"exit": "N",
+			"target": "E3"
+		}, {
+			"exit": "S",
+			"target": "E1"
+		}, {
+			"exit": "E",
+			"target": "E2WW"
+		}, {
+			"exit": "W",
+			"target": "E2WW"
+		}],
+		"items": []
+	},
+	"E2WW": {
+		"name": "E2",
+		"desc": "OUCH! You cannot go that way. The corridor running north and south is the only path.",
+		"exits": [{
+			"exit": "N",
+			"target": "E3"
+		}, {
+			"exit": "S",
+			"target": "E1"
+		}, {
+			"exit": "E",
+			"target": "E2WW"
+		}, {
+			"exit": "W",
+			"target": "E2WW"
+		}],
+		"items": []
+	},
+	"E3": {
+		"name": "E3",
+		"desc": "You are halfway down the corridor.",
+		"exits": [{
+			"exit": "N",
+			"target": "E4"
+		}, {
+			"exit": "S",
+			"target": "E2"
+		}, {
+			"exit": "E",
+			"target": "E3WW"
+		}, {
+			"exit": "W",
+			"target": "E3WW"
+		}],
+		"items": []
+	},
+	"E3WW": {
+		"name": "E3",
+		"desc": "OUCH! You cannot go that way. The corridor running north and south is the only path.",
+		"exits": [{
+			"exit": "N",
+			"target": "E4"
+		}, {
+			"exit": "S",
+			"target": "E2"
+		}, {
+			"exit": "E",
+			"target": "E3WW"
+		}, {
+			"exit": "W",
+			"target": "E3WW"
+		}],
+		"items": []
+	},
+	"E4": {
+		"name": "E4",
+		"desc": "You are towards the end of the corridor now.",
+		"exits": [{
+			"exit": "N",
+			"target": "E5"
+		}, {
+			"exit": "S",
+			"target": "E3"
+		}, {
+			"exit": "E",
+			"target": "E4WW"
+		}, {
+			"exit": "W",
+			"target": "E4WW"
+		}],
+		"items": []
+	},
+	"E4WW": {
+		"name": "E4",
+		"desc": "OUCH! You cannot go that way. The corridor running north and south is the only path.",
+		"exits": [{
+			"exit": "N",
+			"target": "E5"
+		}, {
+			"exit": "S",
+			"target": "E3"
+		}, {
+			"exit": "E",
+			"target": "E4WW"
+		}, {
+			"exit": "W",
+			"target": "E4WW"
+		}],
+		"items": []
+	},
+	"E5": {
+		"name": "E5",
+		"desc": "You are at the north end of the corridor. The path continues to the west. Thick hedges block the way to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "E5WW"
+		}, {
+			"exit": "S",
+			"target": "E4"
+		}, {
+			"exit": "E",
+			"target": "E5WW"
+		}, {
+			"exit": "W",
+			"target": "D5"
+		}],
+		"items": []
+	},
+	"E5WW": {
+		"name": "E5",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "E5WW"
+		}, {
+			"exit": "S",
+			"target": "E4"
+		}, {
+			"exit": "E",
+			"target": "E5WW"
+		}, {
+			"exit": "W",
+			"target": "D5"
+		}],
+		"items": []
+	},
+	"D5": {
+		"name": "D5",
+		"desc": "You can faintly hear birds chirping. You must be close to the exit! Don't turn back now. Thick hedges prohibit you from moving north or south.",
+		"exits": [{
+			"exit": "N",
+			"target": "D5WW"
+		}, {
+			"exit": "S",
+			"target": "D5WW"
+		}, {
+			"exit": "E",
+			"target": "E5"
+		}, {
+			"exit": "W",
+			"target": "C5"
+		}],
+		"items": []
+	},
+	"D5WW": {
+		"name": "D5",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and south.",
+		"exits": [{
+			"exit": "N",
+			"target": "D5WW"
+		}, {
+			"exit": "S",
+			"target": "D5WW"
+		}, {
+			"exit": "E",
+			"target": "E5"
+		}, {
+			"exit": "W",
+			"target": "C5"
+		}],
+		"items": []
+	},
+	"C5": {
+		"name": "C5",
+		"desc": "Thick hedges prohibit moving to the west and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "C6"
+		}, {
+			"exit": "S",
+			"target": "C5WW"
+		}, {
+			"exit": "E",
+			"target": "D5"
+		}, {
+			"exit": "W",
+			"target": "C5WW"
+		}],
+		"items": []
+	},
+	"C5WW": {
+		"name": "C5",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the west and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "C6"
+		}, {
+			"exit": "S",
+			"target": "C5WW"
+		}, {
+			"exit": "E",
+			"target": "D5"
+		}, {
+			"exit": "W",
+			"target": "C5WW"
+		}],
+		"items": []
+	},
+	"C6": {
+		"name": "C6",
+		"desc": "You are at the northern most section of the maze. A thick hedge prohibits you from moving any farther north. To the west appears to be a dead end and you can faintly see daylight off to the east.",
+		"exits": [{
+			"exit": "N",
+			"target": "C6WW"
+		}, {
+			"exit": "S",
+			"target": "C5"
+		}, {
+			"exit": "E",
+			"target": "D6"
+		}, {
+			"exit": "W",
+			"target": "B6"
+		}],
+		"items": []
+	},
+	"C6WW": {
+		"name": "C6",
+		"desc": "OUCH! You cannot go that way. There is a thick hedge covered in thorns prohibiting you from moving any farther north.",
+		"exits": [{
+			"exit": "N",
+			"target": "C6WW"
+		}, {
+			"exit": "S",
+			"target": "C5"
+		}, {
+			"exit": "E",
+			"target": "D6"
+		}, {
+			"exit": "W",
+			"target": "B6"
+		}],
+		"items": []
+	},
+	"B6": {
+		"name": "B6",
+		"desc": "This is a dead end. Best turn around and continue east. ",
+		"exits": [{
+			"exit": "N",
+			"target": "B6WW"
+		}, {
+			"exit": "S",
+			"target": "B6WW"
+		}, {
+			"exit": "E",
+			"target": "C6"
+		}, {
+			"exit": "W",
+			"target": "B6WW"
+		}],
+		"items": []
+	},
+	"B6WW": {
+		"name": "B6",
+		"desc": "OUCH! You cannot go that way. This is a dead end. Best turn around and continue east.",
+		"exits": [{
+			"exit": "N",
+			"target": "B6WW"
+		}, {
+			"exit": "S",
+			"target": "B6WW"
+		}, {
+			"exit": "E",
+			"target": "C6"
+		}, {
+			"exit": "W",
+			"target": "B6WW"
+		}],
+		"items": []
+	},
+	"D6": {
+		"name": "D6",
+		"desc": "You can see the exit to the east! Your flashlight flickers off and back on a few times. You get a few flashes of watchful eyes behind you waiting to pounce when the battery dies. Better get out of this dark tunnel fast! It's starting to give you the shakes.",
+		"exits": [{
+			"exit": "N",
+			"target": "D6WW"
+		}, {
+			"exit": "S",
+			"target": "D6WW"
+		}, {
+			"exit": "E",
+			"target": "E6"
+		}, {
+			"exit": "W",
+			"target": "C6"
+		}],
+		"items": []
+	},
+	"D6WW": {
+		"name": "D6",
+		"desc": "OUCH! You cannot go that way. There are thick hedges covered in thorns to the north and to the south.",
+		"exits": [{
+			"exit": "N",
+			"target": "D6WW"
+		}, {
+			"exit": "S",
+			"target": "D6WW"
+		}, {
+			"exit": "E",
+			"target": "E6"
+		}, {
+			"exit": "W",
+			"target": "C6"
+		}],
+		"items": []
+	},
+	"E6": {
+		"name": "E6",
+		"desc": "You have reached the end of the maze! Congratulations and thank you for playing! :)",
+		"items": []
+	}
+	
+}

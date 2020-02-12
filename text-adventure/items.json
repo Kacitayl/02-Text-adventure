@@ -1,0 +1,20 @@
+{
+    "TRIMMERS": {
+       "exits": {
+          "D4": "You have a pair of hedge trimmers! Type 'use trimmers' to trim through the thin hedge."
+       },
+       "actions": {
+          "USE": "The hedge is too thick to use here. Plus I dont know how to code a verb, object, direct-object statement yet."
+       },
+       "points": 10
+    },
+    "FLASHLIGHT": {
+       "exits": {
+          "C1": "You have a flashlight in your backpack that you can use here!"
+       },
+       "actions": {
+          "USE": "You turn the flashlight on. Go ahead and proceed eastward."
+       },
+       "points": 5
+    }
+ }
